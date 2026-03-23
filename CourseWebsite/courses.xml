@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="courses.xsd">
+    <course>
+        <title>HTML and CSS Basics</title>
+        <instructor>John Doe</instructor>
+        <price>50.00</price>
+        <duration>4 Weeks</duration>
+        <rating>4.5</rating>
+    </course>
+    <course>
+        <title>JavaScript for Beginners</title>
+        <instructor>Jane Smith</instructor>
+        <price>75.00</price>
+        <duration>6 Weeks</duration>
+        <rating>4.8</rating>
+    </course>
+    <course>
+        <title>Advanced Web Design</title>
+        <instructor>Mike Johnson</instructor>
+        <price>100.00</price>
+        <duration>8 Weeks</duration>
+        <rating>4.9</rating>
+    </course>
+</courses>

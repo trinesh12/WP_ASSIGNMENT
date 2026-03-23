@@ -1,0 +1,185 @@
+/* Basic student CSS file */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: 3px solid #e8491d;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #e8491d;
+}
+
+/* Clearfix for header */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Banner */
+.banner {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* Grid System for Courses */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.course-card {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    margin-bottom: 10px;
+    color: #35424a;
+}
+
+.price {
+    color: #e8491d;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Forms */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e8491d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #35424a;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #35424a;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Details Page Layout */
+.details-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.course-info {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.course-info ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Contact & Auth Page Grid layout */
+.contact-grid, .auth-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
